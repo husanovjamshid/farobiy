@@ -69,7 +69,7 @@
 	justify-content: start !important;
 	padding: 0;
 	margin-right: 15%;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
 	margin-left: 10% !important;
 }
 
@@ -77,4 +77,10 @@
 	width: 20px !important;
 	background: #ffffff !important;
 	border-radius: 50% !important;
+    // opacity: 1;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background: #fff;
 }

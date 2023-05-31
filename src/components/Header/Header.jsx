@@ -12,7 +12,7 @@ export const Header = () => {
 		<>
 			<nav className='navbar bg-body-tertiary'>
 				<div className='container'>
-					<a className='navbar-brand'>
+					<a href='#' className='navbar-brand'>
 						<img src={logo} alt='' />
 					</a>
 
