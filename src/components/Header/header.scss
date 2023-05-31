@@ -1,0 +1,81 @@
+.navbar-brand img {
+	width: 100%;
+	max-width: 107px;
+}
+
+.help-btn {
+	display: flex;
+
+	text-decoration: none;
+	align-items: center;
+
+	padding: 11px 18px 11px 15px;
+	gap: 10px;
+
+	background: #eaedf6;
+	border-radius: 12px;
+}
+
+.help-btn img {
+	width: 100%;
+	max-width: 20px;
+	max-height: 20px;
+    
+}
+
+.help-btn span {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #5d6b8a;
+}
+
+.header-item + .header-item {
+	margin-left: 12px;
+}
+
+.header-select {
+	border: none;
+	color: white;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.header-select:active {
+	background-color: #3996f7;
+	border-radius: 15px;
+}
+
+.lang-btn {
+	display: flex;
+	gap: 10px;
+	text-decoration: none;
+	align-items: center;
+	background: #3996f7;
+	border-radius: 12px;
+	padding: 11px 12px;
+}
+
+.lang-btn img {
+	width: 100%;
+	max-width: 20px;
+	max-height: 20px;
+}
+
+.header-mail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	/* identical to box height */
+
+	color: #5d6b8a;
+}
