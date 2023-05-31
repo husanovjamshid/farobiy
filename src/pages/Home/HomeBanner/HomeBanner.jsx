@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import './homeBanner.scss';
-import homeBg from '../../../assets/img/home-bg.png';
 
 export const HomeBanner = () => {
 	return (

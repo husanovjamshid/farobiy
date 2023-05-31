@@ -1,0 +1,56 @@
+.know-inner {
+	padding-bottom: 70px;
+}
+
+.know-title {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	/* identical to box height */
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	color: #3996f7;
+}
+
+.know-desc {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 134%;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.know-btn {
+	background: #3996f7;
+	border: 1px solid #3996f7;
+	border-radius: 16px;
+	padding: 12px 28px;
+	text-decoration: none;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+	.know-btn {
+		padding: 8px 22px;
+	}
+
+	.know-title {
+		font-size: 24px;
+		
+	}
+
+	.know-desc {
+		font-size: 13px;
+	}
+}

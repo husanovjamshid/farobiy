@@ -1,5 +1,5 @@
 .navbar {
-    border-radius: 0px 0px 15px 15px !important;
+	border-radius: 0px 0px 15px 15px !important;
 }
 
 .navbar-brand img {
@@ -7,15 +7,20 @@
 	max-width: 107px;
 }
 
+.header-list {
+	display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
 .help-btn {
 	display: flex;
-
 	text-decoration: none;
 	align-items: center;
-
 	padding: 11px 18px 11px 15px;
 	gap: 10px;
-
 	background: #eaedf6;
 	border-radius: 12px;
 }
@@ -24,7 +29,6 @@
 	width: 100%;
 	max-width: 20px;
 	max-height: 20px;
-
 }
 
 .help-btn span {
@@ -70,10 +74,10 @@
 }
 
 .header-mail {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	text-decoration: none;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
@@ -82,4 +86,50 @@
 	/* identical to box height */
 
 	color: #5d6b8a;
+}
+
+@media only screen and (max-width: 992px) {
+	.navbar-brand img {
+		width: 100%;
+		max-width: 80px;
+	}
+
+	.help-btn {
+		padding: 7px 15px 7px 12px;
+	}
+
+	.lang-btn {
+		padding: 8px 10px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.item-phone {
+		display: none;
+	}
+
+    .item-mail {
+		display: none;
+	}
+
+    .navbar-brand img {
+		width: 100%;
+		max-width: 90px;
+	}
+}
+
+
+@media only screen and (max-width: 700px) {
+    .help-btn {
+		padding: 4px 10px 4px 9px;
+	}
+
+	.lang-btn {
+		padding: 5px 7px;
+	}
+
+    .navbar-brand img {
+		width: 100%;
+		max-width: 90px;
+	}
 }

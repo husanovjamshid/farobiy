@@ -11,7 +11,7 @@ export const Partners = () => {
 			<div className='container'>
 				<div className='partners-inner'>
 					<div className='row'>
-						<div className='col-md-6'>
+						<div className=' col-sm-12 col-md-12 col-lg-6'>
 							<div className='partners-wrap'>
 								<h2 className='partners-title'>
 									Ushbu Grant O’zbekiston Respublikasi Raqamli Texnologiyalari Vazirligi
@@ -19,7 +19,7 @@ export const Partners = () => {
 								</h2>
 							</div>
 						</div>
-						<div className='col-md-6'>
+						<div className=' col-sm-12 col-md-12 col-lg-6'>
 							<div className='partners-img'>
 								<img src={rtm} alt='' />
 								<img src={farobiy} alt='' />

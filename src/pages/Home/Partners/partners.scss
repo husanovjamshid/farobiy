@@ -1,17 +1,15 @@
 .partners {
 	padding: 70px 0;
-
-    
 }
 
 .partners-inner {
-    background-image: url('../../../assets/parters/partnership.svg');
+	background-image: url('../../../assets/parters/partnership.svg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	object-fit: cover;
 	object-position: center;
-    padding: 20px;
+	padding: 20px;
 }
 
 .partners-title {
@@ -20,15 +18,33 @@
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 134%;
-	/* or 27px */
-
 	display: flex;
 	align-items: center;
-
 	color: #3996f7;
 }
 
 .partners-img {
-    display: flex;
-    gap: 30px;
+	display: flex;
+	gap: 30px;
+}
+@media only screen and (max-width: 1024px) {
+	.partners-img {
+		gap: 20px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 992px) {
+	.partners-img {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	.partners-title {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
 }

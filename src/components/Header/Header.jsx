@@ -10,19 +10,19 @@ import './header.scss';
 export const Header = () => {
 	return (
 		<>
-			<nav className='navbar bg-body-tertiary'>
+			<nav className='navbar bg-body-tertiary fixed-top'>
 				<div className='container'>
 					<a href='#' className='navbar-brand'>
 						<img src={logo} alt='' />
 					</a>
 
-					<ul className='header-list list-unstyled m-0 p-0 d-flex align-items-center'>
-                    <li className='header-item me-3'>
+					<ul className='header-list'>
+						<li className='header-item me-3 item-phone'>
 							<a className='header-mail' href='tell:+998(77)777-30-30'>
 								<img src={phone} alt='' /> <span>+998(77)777-30-30</span>
 							</a>
 						</li>
-						<li className='header-item me-2'>
+						<li className='header-item me-2 item-mail'>
 							<a className='header-mail' href='mailto:faarobiy@gmail.uz'>
 								<img src={mail} alt='' /> <span>faarobiy@gmail.uz</span>
 							</a>
